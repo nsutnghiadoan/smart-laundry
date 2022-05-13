@@ -1,0 +1,21 @@
+.laund-detail_img {
+  width: 100%;
+}
+.laund-detail {
+  &-name {
+    color: gray;
+  }
+}
+.return-homepage {
+  color: #fff;
+  &:hover {
+    color: #333;
+  }
+}
+#laund_id {
+  width: 30px;
+}
+
+.dt {
+  font-weight: bold;
+}

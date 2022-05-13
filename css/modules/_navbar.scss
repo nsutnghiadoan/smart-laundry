@@ -1,0 +1,78 @@
+@import "../base/color";
+
+%align-center {
+  display: flex;
+  align-items: center;
+}
+.navbar {
+  background-color: $light;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem calc((100vw - 1200px) / 2);
+  z-index: 10;
+  position: relative;
+  &_logo {
+    color: $darkBlue;
+    cursor: pointer;
+    font-size: 2rem;
+    margin-left: 24px;
+    text-decoration: none !important;
+    @extend %align-center;
+    &:hover {
+      text-decoration: none !important;
+    }
+  }
+  &_bars {
+    opacity: 0;
+  }
+  &_menu {
+    @extend %align-center;
+    list-style: none;
+    text-align: center;
+    margin-right: 24px;
+    // @include tablet {
+    //   display: none;
+    // }
+    // @include mobile {
+    //   display: none;
+    // }
+    &-links {
+      color: $dark;
+      @extend %align-center;
+      justify-content: center;
+      text-decoration: none;
+      padding: 0 1rem;
+      &:hover {
+        color: $lime;
+        transition: all 0.5s ease;
+        text-decoration: none;
+      }
+    }
+    #button {
+      padding: 10px 18px;
+      outline: none;
+      border-radius: 3px;
+      margin-left: 16px;
+      &:hover {
+        transition: all 0.5s ease;
+      }
+    }
+  }
+  &_btn {
+    border: none;
+
+    &-register {
+      background-color: $limeGreen;
+      &:hover {
+        color: $darkBlue;
+      }
+    }
+    &-login {
+      background: $orangeRed;
+      &:hover {
+        color: $brightCyan;
+      }
+    }
+  }
+}

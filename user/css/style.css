@@ -1,0 +1,42 @@
+.booking-laund {
+  width: 70px;
+  height: 90px;
+}
+
+.booking-btn {
+  text-decoration: none;
+  color: #fff;
+}
+
+.booking-btn:hover {
+  color: #333;
+}
+
+.forgot-pass_login {
+  display: block;
+}
+
+.laund-detail_img {
+  width: 100%;
+}
+
+.laund-detail-name {
+  color: gray;
+}
+
+.return-homepage {
+  color: #fff;
+}
+
+.return-homepage:hover {
+  color: #333;
+}
+
+#laund_id {
+  width: 30px;
+}
+
+.dt {
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
